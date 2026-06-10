@@ -1,0 +1,19 @@
+{
+  "name": "aira-fde-interview",
+  "version": "0.1.0",
+  "description": "Bare-bones Fastify + TypeScript server — starting point for the AIRA FDE interview",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "fastify": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
